@@ -1,0 +1,23 @@
+body {
+  background-color: #000;
+  color: #0f0;
+  font-family: monospace;
+  margin: 0;
+  height: 100vh;
+}
+#terminal {
+  padding: 10px;
+}
+#output {
+  white-space: pre-wrap;
+}
+#prompt {
+  display: flex;
+}
+#input {
+  background: transparent;
+  border: none;
+  color: inherit;
+  outline: none;
+  width: 100%;
+}
