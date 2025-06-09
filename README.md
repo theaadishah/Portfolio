@@ -6,9 +6,26 @@ This repository contains two versions of a terminal-style portfolio.
 
 Open `index.html` in your browser to try a minimal implementation. It accepts commands like `help`, `about`, `projects`, and `contact`.
 
+### macOS Quick Start
+
+If you're on macOS and want to preview the static version quickly, run:
+
+```bash
+./run_on_mac.sh
+```
+
+This script simply opens `index.html` in your default browser.
+
 ## React Version
 
 A full React app lives in the `my-portfolio` folder. To run it locally:
+
+First make sure [Node.js](https://nodejs.org/) is installed. On macOS you can
+use [Homebrew](https://brew.sh/):
+
+```bash
+brew install node
+```
 
 ```bash
 cd my-portfolio
